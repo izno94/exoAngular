@@ -1,0 +1,50 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  background-color: #2f435e;
+
+}
+
+ul {
+  width: 100%;
+  max-width: 1080px;
+  height: 100%;
+  max-height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 15px;
+  list-style: none;
+  color: #ececec;
+}
+
+h1 {
+  color: #ececec;
+  margin-left: 5px;
+}
+
+.accueil {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+a {
+  font-weight: bold;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+img {
+  height: 23px;
+  margin: 15px;
+}
