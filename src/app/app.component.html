@@ -1,12 +1,13 @@
 <header>
 
   <div class="nav-bar">
-
-    <a class="accueil" routerLink="/"><img src="../assets/accueil.png" alt="">
+<div>
+    <a class="accueil" routerLink="/homepage"><img src="../assets/accueil.png" alt="">
       <h1> Title </h1>
     </a>
+  </div>
     <ul>
-      <a routerLink="/">
+      <a routerLink="/homepage">
         <li>Acceuil</li>
       </a>
       <a routerLink="/imccalculator">
@@ -15,8 +16,13 @@
       <a routerLink="/todolist">
         <li>To do list</li>
       </a>
-    </ul>
 
+    </ul>
+    <div class="icon">
+      <a href=""><img src="../assets/github.png" alt="iconGithub"></a>
+      <a href=""><img src="../assets/linkedin.png" alt="iconLinkedin"></a>
+      <a href=""><img src="../assets/twitter.png" alt="iconTwitter"></a>
+      </div>
   </div>
 </header>
 <router-outlet></router-outlet>
