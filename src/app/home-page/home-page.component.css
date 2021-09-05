@@ -1,12 +1,15 @@
 .containeur{
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 1080px;
+
 }
-div{
+.card{
     display: flex;
     flex-direction: column;
     
 
+}
+div{
+    width: 100%;
+    max-width: 1080px;
 }
