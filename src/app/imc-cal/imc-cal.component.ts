@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImcCalComponent implements OnInit {
      
-     poids: any = [];
-     taille: any = [];
-     result: any = [];
+     poids: number;
+     taille: number;
+     result: any;
      
 
   constructor() { }
@@ -19,7 +19,7 @@ export class ImcCalComponent implements OnInit {
   
   }
   onClick(){ 
-    this.result = console.log(this.poids + this.taille)
+    this.result = console.log(this.poids / this.taille ** 2 * 10000)
   } 
 
   onKey(event: any){

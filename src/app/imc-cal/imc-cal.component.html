@@ -2,11 +2,11 @@
     <h1>IMC calculator</h1>
     
     <div class="card">
-        <input placeholder="Poids" (keyup)="onKey($event)" >&nbsp; <p>en kilogramme</p>
+        <input placeholder="Poids" type="number" (keyup)="onKey($event)" >&nbsp; <p>en kilogramme</p>
         &nbsp;&nbsp;
     </div>
     <div class="card">
-        <input placeholder="Taille" (keyup)="onKeyTwo($event)" >&nbsp; <p>en centimètre</p>
+        <input placeholder="Taille" type="number" (keyup)="onKeyTwo($event)" >&nbsp; <p>en centimètre</p>
     </div> 
 
     <button (click)="onClick()">calculer</button>
