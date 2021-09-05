@@ -1,15 +1,16 @@
-.containeur{
-    display: flex;
-    align-items: center;
-
+.containeur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  max-width: 1440px;
+  flex-wrap: wrap
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    
 
-}
-div{
-    width: 100%;
-    max-width: 1080px;
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+
+
 }

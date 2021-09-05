@@ -3,14 +3,12 @@
   justify-content: space-between;
   margin-bottom: 5px;
   background-color: #2f435e;
+  width: 1920px;
 
 }
 
 ul {
   width: 100%;
-  max-width: 1080px;
-  height: 100%;
-  max-height: 250px;
   display: flex;
   justify-content: center;
 }
