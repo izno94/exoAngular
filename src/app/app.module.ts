@@ -8,6 +8,7 @@ import { ImcCalComponent } from './imc-cal/imc-cal.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormulaireComponent } from './formulaire/formulaire.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ToDoListComponent,
     ImcCalComponent,
     HomePageComponent,
-    NavbarComponent
+    NavbarComponent,
+    FormulaireComponent
   ],
   imports: [
     BrowserModule,
