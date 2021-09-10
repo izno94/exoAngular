@@ -1,3 +1,4 @@
+import { NgClass } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -19,7 +20,25 @@ export class ImcCalComponent implements OnInit {
   
   }
   onClick(){ 
-    this.result = console.log(this.poids / this.taille ** 2 * 10000)
+    this.result = Math.round(this.poids / this.taille ** 2 * 10000)
+    if (this.result <= 18) {
+      this.result = this.result + " TTrop maigre !!!!! MANGE MANGE !!!!!"
+    }
+    if (this.result > 18 && this.result <= 25 ) {
+      this.result = this.result + " Tu es au summum"
+    }
+    if (this.result > 25 && this.result <= 30 ) {
+      this.result = this.result + " tu es en surpoid"
+    }
+    if (this.result > 30 && this.result <= 35 ) {
+      this.result = this.result + " Obésité modérée"
+    }
+    if (this.result > 35 && this.result <= 40 ) {
+      this.result = this.result + " Obésité sévère"
+    }
+    if (this.result > 40 ) {
+      this.result = this.result + " Obésité morbide ou massive"
+    }
   } 
 
   onKey(event: any){
