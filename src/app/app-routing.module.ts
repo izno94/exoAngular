@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { FormulaireComponent } from './formulaire/formulaire.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ImcCalComponent } from './imc-cal/imc-cal.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 
-const routes: Routes = [{ path: "imccalculator", component: ImcCalComponent,},
+const routes: Routes = [{ path: "imccalculator", component: ImcCalComponent},
                         { path:"todolist", component: ToDoListComponent},
-                        { path:"homepage", component: HomePageComponent}];
+                        { path:"homepage", component: HomePageComponent},
+                        { path:"formulaire", component: FormulaireComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
