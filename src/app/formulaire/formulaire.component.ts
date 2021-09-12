@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormulaireComponent implements OnInit {
 
+  resultat : any = "" ;
+
+
   constructor() { }
 
   ngOnInit() {
   }
 
+
+
+  onClick(){
+    console.log(this.resultat)
+  } 
 }

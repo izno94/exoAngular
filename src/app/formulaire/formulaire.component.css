@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, label{
+    margin-top: 15px;
+}
+button{
+    margin-top: 25px;
+}
+textarea {
+    resize: none;
+  }
