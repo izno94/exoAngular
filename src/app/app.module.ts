@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { ImcCalComponent } from './imc-cal/imc-cal.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 
@@ -22,7 +22,8 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

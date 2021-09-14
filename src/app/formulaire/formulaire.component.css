@@ -2,7 +2,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-input, label{
+input, label, select{
     margin-top: 15px;
 }
 button{
