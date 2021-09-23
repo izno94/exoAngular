@@ -9,7 +9,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
-import {MatDialogModule} from '@angular/material/dialog';
+
+
 
 
 
@@ -27,8 +28,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,
-    MatDialogModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
