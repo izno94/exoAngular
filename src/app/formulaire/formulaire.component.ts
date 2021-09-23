@@ -11,7 +11,8 @@ export class FormulaireComponent implements OnInit {
   resultat : FormGroup ;
 
 
-  constructor(private fb : FormBuilder) { }
+
+  constructor(private fb : FormBuilder ) { }
 
   ngOnInit() {
     this.resultat = this.fb.group({
@@ -26,9 +27,8 @@ export class FormulaireComponent implements OnInit {
     
   }
 
-
-
   onClick(){
     console.log(this.resultat.value)
+
   } 
 }
