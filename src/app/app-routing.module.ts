@@ -6,10 +6,12 @@ import { ImcCalComponent } from './imc-cal/imc-cal.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 
-const routes: Routes = [{ path: "imccalculator", component: ImcCalComponent},
-                        { path:"todolist", component: ToDoListComponent},
-                        { path:"homepage", component: HomePageComponent},
-                        { path:"formulaire", component: FormulaireComponent}];
+export const routes: Routes = [
+                               { path:"imccalculator", component: ImcCalComponent},
+                               { path:"todolist", component: ToDoListComponent},
+                               { path:"formulaire", component: FormulaireComponent},
+                               { path:"homepage", component: HomePageComponent},
+                               { path: "", component: HomePageComponent},];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
