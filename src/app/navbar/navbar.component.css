@@ -3,12 +3,13 @@
   justify-content: space-between;
   margin-bottom: 5px;
   background-color: #2f435e;
-  width: 1920px;
+  width: 100%;
+  min-width: 1440px;
 
 }
 
 ul {
-  width: 100%;
+  padding: 0;
   display: flex;
   justify-content: center;
 }
@@ -46,3 +47,9 @@ img {
   height: 23px;
   margin: 15px;
 }
+@media (max-width: 1440px) { 
+
+    .nav-bar{
+      width: 100%;
+    }
+ }
