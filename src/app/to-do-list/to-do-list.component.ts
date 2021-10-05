@@ -15,10 +15,12 @@ export class ToDoListComponent implements OnInit {
 
   ngOnInit() {
   }
+
 add(){
   this.todo.push(this.importData)
   
 }
+
 delete(index){
   this.todo.splice(index,1)
 }
